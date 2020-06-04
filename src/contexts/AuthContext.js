@@ -16,7 +16,7 @@ class AuthContextProvider extends Component {
             <AuthContext.Provider
                 value={{
                 ...this.state,
-                toggleAuth: this.state.isAuthenticated
+                toggleAuth: this.toggleAuth
             }}>
                 {this.props.children
 }
